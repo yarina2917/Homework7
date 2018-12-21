@@ -1,0 +1,12 @@
+:host {
+  padding: 15px; }
+
+.graphicsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .graphicsList li {
+    margin: 10px;
+    min-width: 450px; }
+
+/*# sourceMappingURL=dashboard.component.css.map */
