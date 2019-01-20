@@ -4,11 +4,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { DashboardComponent } from './main/dashboard/dashboard.component';
-import { TablelistComponent } from './main/tablelist/tablelist.component';
-import { GalleryComponent } from './main/gallery/gallery.component';
-import { TypographyComponent } from './main/typography/typography.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { DashboardComponent } from './components/main/dashboard/dashboard.component';
+import { TablelistComponent } from './components/main/tablelist/tablelist.component';
+import { GalleryComponent } from './components/main/gallery/gallery.component';
+import { TypographyComponent } from './components/main/typography/typography.component';
 
 import { MatIconModule, MatTableModule } from '@angular/material';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';

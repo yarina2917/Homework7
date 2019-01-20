@@ -9,7 +9,7 @@ export class DashboardComponent {
 
   // first, line
 
-  public chartType1: string = 'line';
+  public chartType1 = 'line';
   public chartDatasets1: Array<any> = [
     { data: [65, 59, 80, 81, 56, 55, 44], label: 'First dataset' },
   ];
@@ -44,7 +44,7 @@ export class DashboardComponent {
 
   // third, bar
 
-  public chartType3: string = 'bar';
+  public chartType3 = 'bar';
   public chartColors3: Array<any> = [
     {
       backgroundColor: [
@@ -76,7 +76,7 @@ export class DashboardComponent {
 
   // fourth, horizontal bar
 
-  public chartType4: string = 'horizontalBar';
+  public chartType4 = 'horizontalBar';
   public chartDatasets4: Array<any> = [
     { data: [77, 50, 44, 70, 79, 81, 60], label: 'Fourth dataset' }
   ];

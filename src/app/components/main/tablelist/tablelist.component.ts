@@ -4,7 +4,7 @@ export interface PeriodicElement {
   name: string;
   position: number;
   symbol: string;
-  population: number,
+  population: number;
   area: number;
 }
 
@@ -27,6 +27,6 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./tablelist.component.scss']
 })
 export class TablelistComponent {
-  displayedColumns: string[] = ['position', 'name', 'symbol', 'population', 'area'];
-  dataSource = ELEMENT_DATA;
+  public displayedColumns: string[] = ['position', 'name', 'symbol', 'population', 'area'];
+  public dataSource = ELEMENT_DATA;
 }
